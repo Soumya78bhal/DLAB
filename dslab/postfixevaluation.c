@@ -3,7 +3,7 @@
 #include<stdlib.h>
 float stack[50];
 int top=-1;
-char pop(){
+int pop(){
     return stack[top--];
 }
 void push(float x){
